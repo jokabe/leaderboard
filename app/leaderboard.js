@@ -1,1 +1,4 @@
-console.log('Hello');
+import { Mongo } from 'meteor/mongo';
+
+PlayersList = new Mongo.Collection('players');
+
